@@ -19,16 +19,16 @@
         <div class="brand-mark" aria-hidden="true"></div>
         <div class="brand-text">
           <div class="brand-name">Mihaly Szabo</div>
-          <div class="brand-tag">Junior Security Consultant • Junior Pentester • Consulting-Style Reporting</div>
+          <div class="brand-tag">Security Consultant • Penetration Testing (Junior) • Consulting-Style Reporting</div>
         </div>
       </div>
 
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
         <a href="#case-studies">Case Studies</a>
         <a href="#certifications">Certifications</a>
         <a href="#skills">Skills</a>
         <a href="#homelab">Homelab</a>
-        <a href="#about">About</a>
         <a class="btn btn-sm" href="#contact">Contact</a>
       </nav>
     </div>
@@ -108,16 +108,15 @@
           <div class="glass-card">
             <div class="glass-title">Early curiosity → professional direction</div>
             <p class="glass-text">
-              I got into security the same way a lot of people do: trying to understand how systems work, how devices
-              can be hardened, and how exposure happens. Today the focus is defensive value: identify real paths to
-              compromise and close them.
+              I got into security by learning how systems work, how exposure happens, and how devices can be hardened.
+              Today the focus is defensive value: identify real paths to compromise and close them.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-   <!-- ABOUT -->
+    <!-- ABOUT + CONTACT (moved up; single instance) -->
     <section id="about" class="section">
       <div class="container about-grid">
         <div>
@@ -127,8 +126,8 @@
 
           <p class="muted">
             I’m a junior security consultant candidate based in Vernon, BC. I’m oriented toward hands-on consulting and penetration
-            testing work: fast-paced environments, clear deliverables, and real outcomes. I’m reliable, ready to learn, and I take
-            documentation seriously because it’s what makes security work usable.
+            testing work: fast-paced environments, clear deliverables, and real outcomes. I take documentation seriously because it’s
+            what makes security work usable.
           </p>
 
           <div class="tags">
@@ -151,8 +150,7 @@
           </div>
         </div>
 
-        <!-- CONTACT -->
-        <aside id="contact" class="panel">
+        <aside id="contact" class="panel" aria-label="Contact details">
           <div class="panel-top">
             <div class="panel-title">Contact</div>
             <div class="panel-chip">Best: email</div>
@@ -161,7 +159,7 @@
           <div class="contact-row">
             <div>
               <div class="contact-label">Email</div>
-              <a class="contact-value" href="mailto:you@example.com">mihalyzoltan505@gmail.com</a>
+              <a class="contact-value" href="mailto:mihalyzoltan505@gmail.com">mihalyzoltan505@gmail.com</a>
             </div>
             <div>
               <div class="contact-label">LinkedIn</div>
@@ -193,16 +191,14 @@
         </aside>
       </div>
     </section>
-  </main>
-  
+
     <!-- CASE STUDIES -->
     <section id="case-studies" class="section">
       <div class="container">
         <div class="section-head">
           <h2>Case Studies</h2>
           <p class="muted">
-            Anonymized and written in a consulting format (context → attack path → risk → roadmap). No tool-dumps,
-            no payloads.”
+            Anonymized and written in a consulting format (context → attack path → risk → roadmap). No tool-dumps, no payloads.
           </p>
         </div>
 
@@ -293,17 +289,19 @@
             </p>
 
             <div class="cert-row">
-              <!-- Option 1: Link only (fast + reliable) -->
-              <a class="btn btn-sm" href="https://www.credly.com/" target="_blank" rel="noreferrer">View badge (Credly)</a>
+              <a class="btn btn-sm" href="https://www.credly.com/badges/dd2618df-a598-446e-b9b2-25b574d9582e" target="_blank" rel="noreferrer">
+                View badge (Credly)
+              </a>
 
-              <!-- Option 2: Embed (replace with your actual Credly embed) -->
+              <!-- Credly embed (script is loaded once at the bottom of the page) -->
               <div class="cert-embed" aria-label="Credly badge">
-                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="dd2618df-a598-446e-b9b2-25b574d9582e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div
+                  data-iframe-width="150"
+                  data-iframe-height="270"
+                  data-share-badge-id="dd2618df-a598-446e-b9b2-25b574d9582e"
+                  data-share-badge-host="https://www.credly.com">
+                </div>
               </div>
-            </div>
-
-            <div class="tiny muted">
-              Replace the Credly link with your actual badge URL.
             </div>
           </article>
 
@@ -431,91 +429,17 @@
         </div>
       </div>
     </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container about-grid">
-        <div>
-          <div class="section-head">
-            <h2>About</h2>
-          </div>
-
-          <p class="muted">
-            I’m a junior security consultant candidate based in Vernon, BC. I’m oriented toward hands-on consulting and penetration
-            testing work: fast-paced environments, clear deliverables, and real outcomes. I’m reliable, easy to onboard, and I take
-            documentation seriously because it’s what makes security work usable.
-          </p>
-
-          <div class="tags">
-            <span class="tag">Linux</span>
-            <span class="tag">Networking</span>
-            <span class="tag">Web fundamentals</span>
-            <span class="tag">Active Directory fundamentals</span>
-            <span class="tag">Consulting reporting</span>
-            <span class="tag">Homelab</span>
-          </div>
-
-          <div class="links">
-            <a href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/your-profile/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="#contact">Contact</a>
-          </div>
-
-          <div class="micro-note">
-            If you want a role-specific resume, send the job posting and I’ll provide a tailored version.
-          </div>
-        </div>
-
-        <!-- CONTACT -->
-        <aside id="contact" class="panel">
-          <div class="panel-top">
-            <div class="panel-title">Contact</div>
-            <div class="panel-chip">Best: email</div>
-          </div>
-
-          <div class="contact-row">
-            <div>
-              <div class="contact-label">Email</div>
-              <a class="contact-value" href="mailto:you@example.com">you@example.com</a>
-            </div>
-            <div>
-              <div class="contact-label">LinkedIn</div>
-              <a class="contact-value" href="https://www.linkedin.com/in/your-profile/" target="_blank" rel="noreferrer">
-                linkedin.com/in/your-profile
-              </a>
-            </div>
-          </div>
-
-          <div class="contact-row">
-            <div>
-              <div class="contact-label">Phone (optional)</div>
-              <div class="contact-value">
-                +1 (250) XXX-XXXX
-                <span class="muted" style="display:block; font-size:12.5px; margin-top:4px;">
-                  Public-safe placeholder. Share real number privately.
-                </span>
-              </div>
-            </div>
-            <div>
-              <div class="contact-label">Availability</div>
-              <div class="contact-value">2 weeks notice</div>
-            </div>
-          </div>
-
-          <div class="note">
-            Hiring teams: I can share private previews of in-progress case studies upon request.
-          </div>
-        </aside>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="muted">© <span id="year"></span> Your Name • Personal Security Portfolio</div>
+      <div class="muted">© <span id="year"></span> Mihaly Szabo • Security Consulting Portfolio</div>
       <div class="muted">Hosted on GitHub Pages</div>
     </div>
   </footer>
+
+  <!-- Credly embed loader (https explicit; loaded once) -->
+  <script async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
