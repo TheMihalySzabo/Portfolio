@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Personal security consulting portfolio: case studies, labs, homelab, and certifications." />
+  <title>Your Name — Security Consulting Portfolio</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg-ambient" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div class="brand-text">
+          <div class="brand-name">Your Name</div>
+          <div class="brand-tag">Junior Security Consultant • Junior Pentester • Consulting-Style Reporting</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#case-studies">Case Studies</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#skills">Skills</a>
+        <a href="#homelab">Homelab</a>
+        <a href="#about">About</a>
+        <a class="btn btn-sm" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="kicker">
+            <span class="pill">Target roles: Junior Security Consultant / Junior Pentester</span>
+            <span class="pill pill-muted">Vernon (Okanagan), BC • Remote/Hybrid</span>
+            <span class="pill pill-muted">Available with 2 weeks notice</span>
+          </p>
+
+          <h1 class="headline">
+            Practical security work, explained clearly, delivered professionally.
+          </h1>
+
+          <p class="subhead">
+            I build consulting-style deliverables: scoped assessments, high-level attack narratives, findings tied to
+            business impact, and remediation roadmaps teams can execute. Strong Linux + networking fundamentals, solid
+            Windows familiarity, and growing depth in web app and Active Directory testing.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#case-studies">View Case Studies</a>
+            <a class="btn btn-ghost" href="#contact">Request tailored resume</a>
+          </div>
+
+          <div class="micro-note">
+            Resume is provided on request and tailored to the role (send the posting link).
+          </div>
+
+          <div class="quick-stats">
+            <div class="stat">
+              <div class="stat-num">1</div>
+              <div class="stat-label">Publish-ready report</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">PNPT</div>
+              <div class="stat-label">In progress (near-term)</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">6–7 yrs</div>
+              <div class="stat-label">Hands-on tinkering</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="panel">
+            <div class="panel-top">
+              <div class="panel-title">What you’ll see here</div>
+              <div class="panel-chip">Portfolio v1</div>
+            </div>
+
+            <ul class="checklist">
+              <li><span class="dot dot-ok"></span> Executive summary + scope discipline</li>
+              <li><span class="dot dot-ok"></span> Findings mapped to impact</li>
+              <li><span class="dot dot-ok"></span> Risk matrix + phased roadmap</li>
+              <li><span class="dot dot-ok"></span> Homelab systems & automation proof</li>
+              <li><span class="dot dot-wip"></span> AD attack path case study shipping next</li>
+            </ul>
+
+            <div class="panel-divider"></div>
+
+            <div class="mini">
+              <div class="mini-title">Operating style</div>
+              <p class="mini-text">
+                I work fast, document cleanly, and keep outputs usable for leadership and technical teams.
+              </p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <div class="glass-title">Early curiosity → professional direction</div>
+            <p class="glass-text">
+              I got into security the same way a lot of people do: trying to understand how systems work, how devices
+              can be hardened, and how exposure happens. Today the focus is defensive value: identify real paths to
+              compromise and close them.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE STUDIES -->
+    <section id="case-studies" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Case Studies</h2>
+          <p class="muted">
+            Anonymized and written in a consulting format (context → attack path → risk → roadmap). No tool-dumps,
+            no payloads, no “CTF energy.”
+          </p>
+        </div>
+
+        <div class="grid cards-3">
+          <article class="card">
+            <div class="card-top">
+              <div class="badge">Web</div>
+              <div class="badge badge-risk">High</div>
+            </div>
+            <h3>SMB Web Application Security Assessment</h3>
+            <p class="card-text">
+              Compromise path driven by compounding control failures: exposed services, information disclosure,
+              broken authorization boundaries, unsafe file handling, and weak privilege separation.
+            </p>
+            <div class="card-meta">
+              <span class="meta">Deliverable: PDF report</span>
+              <span class="meta">Focus: reporting + prioritization</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-sm" href="assets/case-studies/smb-web-app-assessment.pdf">Read PDF</a>
+              <a class="btn btn-sm btn-ghost" href="case-studies/smb-web-app-assessment/">Details</a>
+            </div>
+          </article>
+
+          <article class="card card-muted">
+            <div class="card-top">
+              <div class="badge">Active Directory</div>
+              <div class="badge badge-wip">In progress</div>
+            </div>
+            <h3>AD Internal Attack Path</h3>
+            <p class="card-text">
+              Internal foothold → escalation → lateral movement → post-compromise containment gaps. Written to show
+              trust boundaries and decision points.
+            </p>
+            <div class="card-meta">
+              <span class="meta">Deliverable: Markdown</span>
+              <span class="meta">Focus: attack-path thinking</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-sm btn-disabled" href="#" aria-disabled="true">Coming soon</a>
+              <a class="btn btn-sm btn-ghost" href="#contact">Request preview</a>
+            </div>
+          </article>
+
+          <article class="card card-muted">
+            <div class="card-top">
+              <div class="badge">Automation</div>
+              <div class="badge badge-wip">Queued</div>
+            </div>
+            <h3>Homelab: Reverse Proxy, DNS, Automation</h3>
+            <p class="card-text">
+              Self-hosted stack demonstrating practical systems skills: service routing, name resolution, and
+              automation workflows. Portfolio write-up in progress.
+            </p>
+            <div class="card-meta">
+              <span class="meta">Deliverable: Write-up + diagrams</span>
+              <span class="meta">Focus: systems & reliability</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-sm btn-disabled" href="#" aria-disabled="true">Coming soon</a>
+              <a class="btn btn-sm btn-ghost" href="#contact">Request preview</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="callout">
+          <div class="callout-icon" aria-hidden="true"></div>
+          <div class="callout-text">
+            <strong>Portfolio focus:</strong> real deliverables. I prioritize clarity, defensible scope, and actionable remediation.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Certifications</h2>
+          <p class="muted">Formal proof of baseline knowledge and continued training.</p>
+        </div>
+
+        <div class="grid cards-3">
+          <article class="card">
+            <h3>Google Cybersecurity Professional Certificate</h3>
+            <p class="card-text">
+              Credential focused on security foundations, risk, controls, and practical workflows. Badge is verifiable via Credly.
+            </p>
+
+            <div class="cert-row">
+              <!-- Option 1: Link only (fast + reliable) -->
+              <a class="btn btn-sm" href="https://www.credly.com/" target="_blank" rel="noreferrer">View badge (Credly)</a>
+
+              <!-- Option 2: Embed (replace with your actual Credly embed) -->
+              <div class="cert-embed" aria-label="Credly badge embed placeholder">
+                <div class="muted">Embed your Credly badge here (optional).</div>
+              </div>
+            </div>
+
+            <div class="tiny muted">
+              Replace the Credly link with your actual badge URL.
+            </div>
+          </article>
+
+          <article class="card card-muted">
+            <h3>PNPT (in progress)</h3>
+            <p class="card-text">
+              Training path focused on practical penetration testing methodology, reporting, and end-to-end engagement flow.
+            </p>
+            <div class="card-meta">
+              <span class="meta">Status: near-term completion</span>
+              <span class="meta">Focus: consulting output</span>
+            </div>
+          </article>
+
+          <article class="card card-muted">
+            <h3>Next certifications (planned)</h3>
+            <p class="card-text">
+              Additional credentials will be added after PNPT completion based on role requirements and portfolio gaps.
+            </p>
+            <ul class="bullets">
+              <li>Web app depth</li>
+              <li>AD depth</li>
+              <li>Reporting and client delivery</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">What I can contribute immediately as a junior consultant/pentester.</p>
+        </div>
+
+        <div class="grid cards-3">
+          <article class="card">
+            <h3>Security Consulting Output</h3>
+            <ul class="bullets">
+              <li>Scope & assumptions discipline</li>
+              <li>Executive summaries that don’t over-technicalize</li>
+              <li>Attack narrative at the right abstraction level</li>
+              <li>Findings tied to business impact</li>
+              <li>Risk matrix + remediation roadmap</li>
+              <li>Professional, repeatable report structure</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Systems & Networking</h3>
+            <ul class="bullets">
+              <li>Linux administration (daily driver familiarity)</li>
+              <li>Networking and subnetting fundamentals</li>
+              <li>Service exposure awareness and hardening mindset</li>
+              <li>VMs / lab environments (repeatable testing setups)</li>
+              <li>Basic identity concepts (users, groups, permissions)</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Web + AD Fundamentals</h3>
+            <ul class="bullets">
+              <li>Web testing fundamentals (auth, access control, exposure)</li>
+              <li>Active Directory fundamentals (domain concepts, common paths)</li>
+              <li>Windows environment familiarity + admin tasks</li>
+              <li>PowerShell: working knowledge</li>
+              <li>Code reading: HTML, Python, Java basics</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOMELAB -->
+    <section id="homelab" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Homelab & Hands-On Work</h2>
+          <p class="muted">
+            Systems work that supports consulting capability: networking, deployment discipline, and practical troubleshooting.
+          </p>
+        </div>
+
+        <div class="grid cards-3">
+          <article class="card">
+            <h3>Reverse Proxy + Internal DNS</h3>
+            <p class="card-text">
+              Built a self-hosted stack with internal name resolution and reverse proxy routing to organize services cleanly and
+              reduce exposure. Focus: reliability, isolation, and operational clarity.
+            </p>
+            <ul class="bullets">
+              <li>Service routing & TLS mindset</li>
+              <li>Clean subdomain/service mapping</li>
+              <li>Operational troubleshooting & validation</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Automation Workflows</h3>
+            <p class="card-text">
+              Built workflow automations for personal ops (job scraping, outreach support, and task orchestration). Comfortable using
+              AI-assisted development responsibly to accelerate scripting and repeatable tooling.
+            </p>
+            <ul class="bullets">
+              <li>Workflow design & reliability thinking</li>
+              <li>Script scaffolding and iteration</li>
+              <li>Practical “ship it” mindset</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Virtualized Test Environments</h3>
+            <p class="card-text">
+              Comfortable building controlled environments for repeatable testing: VMs, network segmentation, and service setup to
+              support consistent practice and documentation.
+            </p>
+            <ul class="bullets">
+              <li>Lab realism without production risk</li>
+              <li>Repeatability and documentation</li>
+              <li>Linux + Windows familiarity</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <div class="section-head">
+            <h2>About</h2>
+          </div>
+
+          <p class="muted">
+            I’m a junior security consultant candidate based in Vernon, BC. I’m oriented toward hands-on consulting and penetration
+            testing work: fast-paced environments, clear deliverables, and real outcomes. I’m reliable, easy to onboard, and I take
+            documentation seriously because it’s what makes security work usable.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Linux</span>
+            <span class="tag">Networking</span>
+            <span class="tag">Web fundamentals</span>
+            <span class="tag">Active Directory fundamentals</span>
+            <span class="tag">Consulting reporting</span>
+            <span class="tag">Homelab</span>
+          </div>
+
+          <div class="links">
+            <a href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/your-profile/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="micro-note">
+            If you want a role-specific resume, send the job posting and I’ll provide a tailored version.
+          </div>
+        </div>
+
+        <!-- CONTACT -->
+        <aside id="contact" class="panel">
+          <div class="panel-top">
+            <div class="panel-title">Contact</div>
+            <div class="panel-chip">Best: email</div>
+          </div>
+
+          <div class="contact-row">
+            <div>
+              <div class="contact-label">Email</div>
+              <a class="contact-value" href="mailto:you@example.com">you@example.com</a>
+            </div>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <a class="contact-value" href="https://www.linkedin.com/in/your-profile/" target="_blank" rel="noreferrer">
+                linkedin.com/in/your-profile
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <div>
+              <div class="contact-label">Phone (optional)</div>
+              <div class="contact-value">
+                +1 (250) XXX-XXXX
+                <span class="muted" style="display:block; font-size:12.5px; margin-top:4px;">
+                  Public-safe placeholder. Share real number privately.
+                </span>
+              </div>
+            </div>
+            <div>
+              <div class="contact-label">Availability</div>
+              <div class="contact-value">2 weeks notice</div>
+            </div>
+          </div>
+
+          <div class="note">
+            Hiring teams: I can share private previews of in-progress case studies upon request.
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="muted">© <span id="year"></span> Your Name • Personal Security Portfolio</div>
+      <div class="muted">Hosted on GitHub Pages</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
